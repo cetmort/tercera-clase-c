@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tercera-clase-c';
+  public valor : number = 0
+  incremento(event: any){
+    console.log(event)
+    this.valor += event;
+  }
 }
